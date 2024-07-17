@@ -8,7 +8,7 @@ function Navbar({ className }) {
 
   return (
     <>
-      <nav className=" bg-white text-black z-50 relative w-full top-0 left-0 ">
+      <nav className=" bg-white text-black z-50 relative w-full top-0 left-0 p-4">
         <div className="flex items-center justify-between">
           <Link to="/">
             <img src={Logo} alt="Logo" className="h-8 cursor-pointer" />

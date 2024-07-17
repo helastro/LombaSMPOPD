@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import MediaQuery from "../config/MediaQuery";
 
 function LandingPage() {
@@ -6,9 +7,10 @@ function LandingPage() {
 
   return (
     <div className="overflow-x-hidden">
-      <div className="bg-white">
+      <div>
         <Navbar />
       </div>
+      <Footer />
     </div>
   );
 }
