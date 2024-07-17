@@ -1,10 +1,14 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SMP from "./pages/SMP";
 
 function App() {
   return (
-    <>
-      <div></div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<SMP />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
