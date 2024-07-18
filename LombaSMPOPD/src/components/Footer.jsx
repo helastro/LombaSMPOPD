@@ -9,8 +9,8 @@ function Footer() {
   const isMobile = MediaQuery("(max-width: 768px)");
 
   return (
-    <footer className="bg-black h-auto w-full">
-      <div className={`container mx-auto p-5 flex ${isMobile ? "flex-col" : "flex-row"} justify-around items-start`}>
+    <footer className="bg-white h-auto w-full border border-gray-200">
+      <div className={`container mx-auto p-5 flex ${isMobile ? "flex-col" : "flex-row"} justify-around items-start `}>
         <div className="p-5">
           <ul>
             <div className="flex justify-center">
@@ -21,16 +21,16 @@ function Footer() {
             <div className={`flex ${isMobile ? "flex-col" : "flex-row"} justify-center gap-6 pb-5 m-4`}>
               <a href="tel:0243549446" className="text-2xl text-red-500 cursor-pointer hover:font-semibold flex justify-between" target="_blank" rel="noopener noreferrer">
                 <FaPhoneAlt />
-                <p className="text-white text-base px-4 items-center">(024)3549446</p>
+                <p className="text-black text-base px-4 items-center">(024)3549446</p>
               </a>
               <a href="diskominfo@semarangkota.go.id" className="text-2xl text-red-500 cursor-pointer hover:font-semibold flex justify-between" target="_blank" rel="noopener noreferrer">
                 <MdEmail />
-                <p className="text-white text-base px-4 items-center">diskominfo@semarangkota.go.id</p>
+                <p className="text-black text-base px-4 items-center">diskominfo@semarangkota.go.id</p>
               </a>
             </div>
             <a href="https://maps.app.goo.gl/hiSaaV3KiwpcxkeV6" className="text-2xl text-red-500 cursor-pointer hover:font-semibold flex justify-between" target="_blank" rel="noopener noreferrer">
               <FaLocationDot />
-              <p className="text-white text-base px-4 items-center">Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132</p>
+              <p className="text-black text-base px-4 items-center">Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132</p>
             </a>
           </ul>
         </div>

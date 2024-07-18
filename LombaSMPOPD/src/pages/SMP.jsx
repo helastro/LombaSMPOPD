@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Banner from "../components/Banner";
 import MediaQuery from "../config/MediaQuery";
 
 function LandingPage() {
@@ -7,9 +8,8 @@ function LandingPage() {
 
   return (
     <div className="overflow-x-hidden">
-      <div>
-        <Navbar />
-      </div>
+      <Navbar />
+      <Banner />
       <Footer />
     </div>
   );
